@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Ammotation",
+    "version": "1.2",
+    "description": "Draw shapes and text on any webpage.",
+    "permissions": ["scripting", "storage", "activeTab", "tabs"],
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["html2canvas.js", "content.js"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "24": "icon.png",
+        "32": "icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Activate Drawing"
+    }
+  }
+  
