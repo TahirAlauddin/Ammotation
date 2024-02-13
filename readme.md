@@ -54,4 +54,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - This project was built with the aim to improve web interaction for educational, professional, and personal use.
 
-```
